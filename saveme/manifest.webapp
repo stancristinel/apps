@@ -1,0 +1,27 @@
+{
+  "version": "0.0.01",
+  "name": "SaveMe",
+  "launch_path": "index.html",
+  "description": "SaveMe",
+  "icons": {
+    "16": "/applogos/logo16.png",
+    "32": "/applogos/logo32.png",
+    "48": "/applogos/logo48.png",
+    "64": "/applogos/logo64.png",
+    "128": "/applogos/logo128.png"
+  },
+  "developer": {
+    "name": "Stan Cristinel",
+    "url": "http://stan.azioneuniversitarialaquila.org"
+  },
+  "permissions": {
+        "desktop-notification": {
+            "description" : "To show notifications"
+        },
+        "geolocation": {
+            "description" : "Marking out user location"
+        }
+    },    
+  "installs_allowed_from": ["*"],
+  "default_locale": "en"
+}

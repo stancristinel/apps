@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <meta name="author" content="Stan Cristinel">   
+   <link rel="stylesheet" type="text/css" href="style/main.css" />        
+   <link rel="stylesheet" type="text/css" href="style/headers.css" />
+   <title>SaveMe</title>
+   
+</head>
+<body>
+
+   <section role="region">
+        <header>            
+            <div id="online-status" title="Online"></div>
+            <menu type="toolbar">
+                <button id="install"><span class="icon icon-add">add</span></button>
+            </menu>
+            <h1>
+                SaveMe App
+            </h1>
+        </header>
+    </section>
+
+   <div class="body">                       
+            <p><button onclick="geoFindMe();" id="search">FOUND</button></p>
+            <p class="message">Send an Emergency Message</p>
+            <p>Proudly created by Stan Cristinel</p>            
+            <div id="out"></div>
+                       
+    </div>           
+   
+   <script type="text/javascript" src="js/install.js"></script> 
+   <script type="text/javascript" src="js/webapp.js"></script>
+   
+</body>
+</html>
